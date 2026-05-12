@@ -70,10 +70,15 @@
     
     
 }
-.containerbox{
+.containerbox{ 
+    display: flex;
+    gap: 10px;
+    
+
+}
 
 
-.firstheader {
+.firstheader{
 
     width: 100%;
     padding-top: 1%;
@@ -304,7 +309,7 @@
 
 
 
-
+.c{ 
     justify-content: center;
     text-align: center;
     font-size: 15px;
