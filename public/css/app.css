@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.titre{
+    display: flex;
+    background-color: azure;
+}
+.paragraphe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 900px;
+
+}
+.titre2{
+    display: flex;
+    background-color: blue;
+    gap: 20px;
+
+}
+.header1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+header2{
+    background-color: blueviolet;
+    
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    display: flex;
+    padding-left: 500px;
+    height: 40px;
+    width: 50px;
+
+}
+.shop{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tittre3{
+    display: flex;
+    background-color: blue;
+    height: 100px;
+   
+    
+}
+.header-icone{
+    display: flex;
+    align-items: center;
+    margin-bottom: 500px;
+}
