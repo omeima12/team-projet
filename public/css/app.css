@@ -38,7 +38,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(244, 247, 246);
-    padding: 50px;
+    padding: 20px 50px;
     gap: 40px;
 }
 .FirstBoxRight{
@@ -50,8 +50,9 @@
     background-color: white;
     padding: 10px;
     position: relative;
-    
-    
+}
+.FirstBoxRight:hover{
+    border: 2px solid rgb(13, 148, 136);
 }
 .FirstBoxRight1{
     /* border: 1px solid gray; */
@@ -92,19 +93,7 @@
 }
 .badge {
   position: absolute;
-  top: 10px; /* Position en haut */
-  left: 10px; 
-  background-color: white;
-  color: gray;
-  padding: 5px 10px;
-  border-radius: 10px; 
-  font-size: 12px;
-  border: 1px solid gray;
-}
-
-.badge {
-  position: absolute;
-  top: 10px; /* Position en haut */
+  top: 10px; 
   left: 10px; 
   background-color: white;
   color: gray;
@@ -113,6 +102,7 @@
   font-size: 12px;
   border: 1px solid gray;
 }
+
 .badge1 {
   position: absolute;
   top: 10px;
@@ -127,6 +117,53 @@
 .paragraph{
     color: gray;
 }
+.SecondSectionW{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 247, 246);
+    padding: 0px 100px;
+    gap: 10px;
+    padding-bottom: 20px;
+
+}
+.par{
+    color: grey;
+    font-size: 13px;
+}
+.BoxW{
+    /* border: 1px solid gray; */
+    flex: 1;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    
+    
+}
+.badge2{
+  position: absolute;
+  top: 100px;
+  left: 10px; 
+  background-color: white;
+  color: rgb(207, 207, 205);
+  padding: 5px 10px;
+  border-radius: 10px; 
+  font-size: 20px;
+}
+.badge3{
+  position: absolute;
+  top: 100px;
+  right: 10px; 
+  background-color: white;
+  color: rgb(207, 207, 205);
+  padding: 5px 10px;
+  border-radius: 10px; 
+  font-size: 20px;
+}
+
 
 
 
