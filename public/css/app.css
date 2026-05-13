@@ -105,7 +105,8 @@
 }
 
 .icon1 {
-     /* display: flex;  */
+    align-items: center;
+     display: flex; 
     flex-direction: row;
     padding-left: 6rem;
 }
@@ -140,12 +141,10 @@
     display: flex;
     justify-content: space-between; 
     flex-direction: column;
-    
-
 }
 
 .center {
-
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -154,7 +153,17 @@
     /* padding-bottom: 20px; */
 
 }
-
+.container-input input{
+    padding: 2vh;
+}
+.container-input input:focus{
+    outline: none;
+}
+.button90{
+    background-color: aquamarine;
+   height: 6vh;
+   width: 7vw;
+}
 
 
 .title i {
@@ -166,7 +175,7 @@
 
 
 .container-input {
-    height: 30px;
+    height: 8vh;
     width: 45%;
     border: 1px solid gray;
     border-radius: 5px;
@@ -373,8 +382,16 @@
      gap: 5vw;
 }
 
+/* ---------Last Footer W------- */
+.LastFooterW{
+    background-color:rgb(247, 247, 248) ;
+    text-align: center;
+    padding: 10px;
+    color: rgb(137, 145, 157);
+}
+
 .winterlook{
-    width: 50vw;
+    width: 40vw;
     height: 70vh;
     border-radius: 10px;
 }
@@ -434,7 +451,7 @@ gap: 4vw;
 }
 .imgup{
     height: 44vh;
-    width: 23vw;
+    width: 20vw;
    border-top-right-radius: 10px;
    border-top-left-radius: 10px;  
 }
@@ -504,7 +521,7 @@ justify-content: center;
 gap: 4vw;
 }
 .textoflimited{
-    height: 7vh;
+    height: 4vh;
     width: 24vw;
     display: flex;
     justify-content: space-around;
@@ -563,7 +580,6 @@ gap: 4vw;
     justify-content: space-around;
    margin-top: 5vh;
     width: 30vw;
-
 }
 
 .line7{
@@ -608,7 +624,7 @@ gap: 4vw;
 .btn9{
     position: relative;
     top:-42vh;
-    left: -7vw;
+    left: 1vw;
     padding: 1vh;
     border-radius: 10px;
     border: none;
@@ -723,11 +739,198 @@ border: 1px solid gray;
     gap: 10px;
 }
 .claim{
+    border: none;
     background-color: rgb(35, 168, 157);
 color: aliceblue;
 padding: 2vh;
 border-radius: 10px ;
-/* ---------Last Footer W------- */
+}
+.all{
+    border: 1px solid gray;
+    background-color:rgb(32, 56, 86) ;
+color: aliceblue;
+padding: 2vh;
+border-radius: 10px ;
+}
+.btnme{
+    border: 1px solid green;
+margin-top: 5px;
+    background-color: rgb(40, 70, 107);
+    color: aquamarine;
+    border-radius: 17px;
+    padding: 7px;
+}
+.btnnam{
+
+    background-color:  rgb(11, 78, 68);
+    border-radius: 10px;
+    border: 1px solid green;
+    color: green;
+    width: 14vw;
+    margin-left: 3vw;
+    padding: 1vh;
+    margin-bottom: 1vh;
+}
+
+/* the container number 10 */
+.conta10{
+    display: flex;
+     background-color:rgb(31, 55, 83) ;
+     gap: 3.2vw;
+     justify-content: center;
+}
+.box9{
+    margin-top: 5vh;
+        border: 1px solid gray;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: rgb(40, 70, 107);
+}
+.h40{
+    margin-left: 1vw;
+    display: flex;
+    gap: 1vw;
+    width: 10vw;
+    height: 7vh;
+    position: relative;
+    bottom: 3vh;
+}
+.throw{
+    color: rgb(154, 153, 153);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: line-through;
+}
+.pforpri{
+    color: rgb(10, 210, 37);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.plg{
+    margin-left: 1vw;
+}
+
+/* the container 11 */
+.conta11{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: aliceblue;
+padding: 4vh;
+}
+.boxbtn{
+display: flex;
+align-items: center;
+}
+.btn11{
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: rgb(239, 241, 243);
+    color: gray;
+   width: 40vw;
+   height: 7vh;
+display: flex;
+margin-left: 8vw;
+
+}
+
+.btn3vert{
+padding: 2vh;
+position: relative;
+right: 6.7vw;
+background-color: rgb(133, 214, 12);
+color: white;
+border-radius: 10px;
+border: none;
+cursor: pointer;
+}
+
+.DivFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: rgb(185, 183, 183);
+}
+.shop{
+    font-weight: bold;
+}
+.Bootstr{
+    color: rgb(86, 174, 164);
+}
+/* footer  */
+.firstcard{
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+.app{
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 2vh;
+    width: 10vw;
+    align-items: center;
+    justify-content: center;
+}
+.google{
+    display: flex;
+    background-color: aliceblue;
+    border-radius:10px ;
+    width: 10vw;
+    align-items: center;
+    justify-content: center;
+}
+.app a{
+    text-decoration: none;
+}
+.google a{
+    text-decoration: none;
+}
+.follow{
+    
+    display: flex;
+    flex-direction: column;
+}
+.lastcard{
+    gap: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+.card2{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+
+}
+.card2 a{
+    text-decoration: none;
+    color: gray;
+}
+.ic{
+    background-color: aliceblue;
+    border-radius: 100%;
+    padding: 1vh;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+/* the last div of the footer */
 .LastFooterW{
     background-color:rgb(247, 247, 248) ;
     text-align: center;
@@ -747,3 +950,4 @@ border-radius: 10px ;
 .Bootstr{
     color: rgb(86, 174, 164);
 }
+
